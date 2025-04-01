@@ -21,6 +21,9 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+
+        //Gemini took original code created and output code below in organised working condition.
+
         val timeEditText = findViewById<EditText>(R.id.edtPTime)
         val mealsTextView = findViewById<TextView>(R.id.edtTMeals)
         val suggestButton = findViewById<Button>(R.id.btnSuggest)
