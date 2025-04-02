@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity() {
         val topicListMorning = listOf("Eggs and Toast", "Oats and Yogurt", "Coffee", "Cereal", "Protein Shake", "Eggs and Bacon", "Bran Muffins", "Avocado on Toast")
         val topicListMidMorning = listOf("frittata", "spinach quiche", "Coffee Cake", "Breakfast Burrito", "Tofu Scramble", "omelette", "Hash Browns")
         val topicListAfternoon = listOf("Burgers", "Chicken and Rice", "Lamb chops", "Fish and Chips", "Lamb and vegetables", "Chicken fillet and chips", "Hot Dog Roll")
-        val topicListMidAfternoon = listOf("Peanuts", "Raisins", "PBJ Sandwich", "Cream crackers and cheese", "Strips and chips", "Fruits")
+        val topicListAfternoonSnack = listOf("Peanuts", "Raisins", "PBJ Sandwich", "Cream crackers and cheese", "Strips and chips", "Fruits")
         val topicListDinner = listOf("Steak and Mash", "Chicken Curry", "Prawns and Calamari", "Fish and Broccoli", "Braai", "Full Chicken Meal", "Mutton Breyani")
         val topicListAfterDinner = listOf("Ice Cream", "Custard", "Pancakes", "Waffles", "Jelly", "Cheesecake", "Tiramisu")
 
@@ -45,7 +45,7 @@ class MainActivity : AppCompatActivity() {
                 "morning" -> topicListMorning.random()
                 "mid morning" -> topicListMidMorning.random()
                 "afternoon" -> topicListAfternoon.random()
-                "mid afternoon" -> topicListMidAfternoon.random()
+                "mid afternoon" -> topicListAfternoonSnack.random()
                 "dinner" -> topicListDinner.random()
                 "after dinner" -> topicListAfterDinner.random()
                 else -> "Input Correct Time"
