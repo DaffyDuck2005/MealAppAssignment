@@ -23,6 +23,8 @@ class MainActivity : AppCompatActivity() {
         }
 
         //Gemini took original code created and output code below in organised working condition.
+        //Youtube video : https://www.youtube.com/watch?v=VpDBP-4HUyg&list=PLQkwcJG4YTCRSQikwhtoApYs9ij_Hc5Z9&index=14
+        //Gemini assisted in code for listing randomly.
 
         val timeEditText = findViewById<EditText>(R.id.edtPTime)
         val mealsTextView = findViewById<TextView>(R.id.edtTMeals)
@@ -47,13 +49,15 @@ class MainActivity : AppCompatActivity() {
                 "dinner" -> topicListDinner.random()
                 "after dinner" -> topicListAfterDinner.random()
                 else -> "Input Correct Time"
+                //Each time given has different list of topics for the meal choices.
+                //Each list is selected to pick a random option for the inputted Time.
             }
             mealsTextView.text = selectedTopic // Update the TextView
         }
         resetButton.setOnClickListener {
             timeEditText.text.clear()
             mealsTextView.text = ""
-
+            // Reset Time EditText and Meals TextView for new input.
         }
     }
 }
