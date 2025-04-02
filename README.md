@@ -1,3 +1,11 @@
+## Link To Youtbe Video -
+
+
+
+##Link To Github repository- 
+
+
+
 # MealApp
 
 ## What it is
@@ -22,3 +30,8 @@ To use this app, you'll need:
 If you want to try the app yourself, you'll need to get the code onto your computer and build it into an app that your phone can use. Here's how:
 
 1.  **Get the code:** If the code is on GitHub (an online place to store code), you can download it by "cloning" the repository. You'll need to use a program called "Git" for this. The command looks like this:
+
+
+## Author
+Pranav Mahabeer
+
